@@ -4,22 +4,49 @@
     padding: 0;
 }
 body{
-    font-family: Loto;
+    font-family: 'Lato', sans-serif;
 }
 .btn{
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     background: #E55473;
-    border: 8px;
+    border-radius: 8px;
+    width: 91px;
 }
 .background{
     width: 1920px;
-    height: 850px;
     background: rgba(229, 84, 115, 0.10);
 }
-.section{
+.Container{
     width: 1440px;
-    height: 320px;
-    
+    margin: 0 auto;
+    display: flex;
+}
+.Container .head-text-part{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 197px 0 147px 0 ;
+
+}
+.Container .head-text-part h1{
+    color: #272727;
+    font-family: lato, sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+}
+.Container .head-text-part p{
+    font-family: lato, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.68);
+    text-align: justify;
+    padding: 20px 0 20px 0;
+}
+.Container .images-part img{
+    width: 635px;
+    padding: 10px 0 0 0;
 }
