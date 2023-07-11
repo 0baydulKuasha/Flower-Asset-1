@@ -155,36 +155,39 @@ body{
     background: rgba(229, 84, 115, 0.05); 
     background-size: cover;
 }
-.hot-deal{
+.Hot .hot-deal{
     display: flex;
     justify-content: space-between;
     padding: 80px 0 0 0;
     border-radius: 8px;
       
 }
-.hot-deal .hot-text{
+.Hot .hot-deal .hot-text{
     text-align: center;
     padding: 230px 186px 180px 150px ;
     margin: 0 auto;
     width: 594px;
 }
 
-.hot-deal .hot-text h1{
+.Hot .hot-deal .hot-text h1{
     font-size: 40px;
     font-weight: 800px;
     color: #272727;
     font-family: Lato;
 
 }
-.hot-deal .hot-text h1 span{
+.Hot .hot-deal .hot-text h1 span{
     color: #E55473;
 }
-.hot-deal .hot-text p{
+.Hot .hot-deal .hot-text p{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400px;
     padding: 24px 0;
+}
+.Hot .hot-deal .hot-img  {
+    padding: 80px 0 0 0;
 }
 /* hot seal part end */
 
