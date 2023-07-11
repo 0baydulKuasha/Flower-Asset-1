@@ -117,12 +117,12 @@ body{
 
 .container .delivery .support{
     text-align: center;
-    
+    ;
 }
 .container .delivery .support img{
     width: 88px;
     height: 88px;
-    padding: 198px 0 0 75px;
+    padding: 80px 40px 0 80px
     
 }
 .container .delivery .support p{
