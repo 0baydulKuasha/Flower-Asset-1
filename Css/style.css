@@ -233,9 +233,13 @@ body{
 
 /* Images Gallary section stard */
 .image-gleary .image-part .back-img img{
-    width: 342px;
+    width: 347px;
     margin: 0 10px 0 0;
     border-radius: 20px;
+    justify-content: space-between;
+}
+.image-gleary .image-part .back-img .last-chaild{
+    padding: 0;
 }
 /* Images Gallary section end  */
 /* latest deals section stard  */
