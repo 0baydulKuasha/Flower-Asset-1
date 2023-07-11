@@ -12,10 +12,18 @@ body{
     align-items: flex-start;
     background: #E55473;
     border-radius: 8px;
-    width: 91px;
+    color: #fff;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+.gap{
+    height: 128px;
+    background: #fff;
 }
 .background{
-    width: 1920px;
+    width: 100%;
     background: rgba(229, 84, 115, 0.10);
 }
 .container{
@@ -23,7 +31,8 @@ body{
     margin: 0 auto;
     display: flex;
 }
-.container .head-text-part{
+/* header sction stard start  */
+.header .container .head-text-part{
     display: flex;
     width: 708px;
     flex-direction: column;
@@ -31,13 +40,13 @@ body{
     padding: 197px 0 147px 0 ;
 
 }
-.container .head-text-part h1{
+.header .container .head-text-part h1{
     color: #272727;
     font-family: lato, sans-serif;
     font-size: 80px;
     font-weight: 800;
 }
-.container .head-text-part p{
+.header .container .head-text-part p{
     font-family: lato, sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -46,26 +55,29 @@ body{
     text-align: justify;
     padding: 20px 0 20px 0;
 }
-.container .images-part img{
+.header .container .head-text-part .btn{
+    width: 91px;
+}
+.header .container .images-part img{
     width: 635px;
     padding: 10px 0 0 0;
 }
+/* header sction end  */
 
 
-
-
-.container .Flower-part-head{
+/* section flower part stard */
+.Featured .container .Flower-part-head{
     text-align: center;
     margin: 0 auto;
     padding: 178px 0 20px 0 ;
 }
 
-.container .Flower-part-head h1{
+.Featured .container .Flower-part-head h1{
     font-size: 40px;
     font-weight: 800;
     color: #272727;
 }
-.container .Flower-part-head p{
+.Featured .container .Flower-part-head p{
     width: 594px;
     font-size: 18px;
     font-weight: 400;
@@ -74,30 +86,33 @@ body{
 
 }
 
-.container .flower-part{
+.Featured .container .flower-part{
     display: flex;
 }
-.container .flower-tree{
+.Featured .container .flower-tree{
     width: 464px;
     border-radius: 300px 300px 0px 0px;
     margin: 0 24px 0 0;
 }
-.container .flower-tree img{
+.Featured .container .flower-tree img{
     width: 314px;
     height: 471px;
     padding: 110px  78px 0 78px;
 }
-.container .pink{
+.Featured .container .pink{
     background: rgba(167, 33, 98, 0.15);
 }
-.container .sky{
+.Featured .container .sky{
     background: rgba(5, 151, 160, 0.15);
 
 }
-.container .simple-black{
+.Featured .container .simple-black{
     background: rgba(71, 125, 17, 0.15);
 
 }
+/* section flower part end  */
+
+/* support part stard */
 .container h3{
     text-align: center;
     font-size: 24px;
@@ -129,3 +144,155 @@ body{
     text-align: center;
     padding: 0 5px 87px 75px;
 }
+/* support part end  */
+
+/* hot seal part start */
+.Hot{
+    width: 100%;
+    background: rgba(229, 84, 115, 0.05); 
+    background-size: cover;
+}
+.hot-deal{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
+    border-radius: 8px;
+      
+}
+.hot-deal .hot-text{
+    text-align: center;
+    padding: 230px 186px 180px 150px ;
+    margin: 0 auto;
+    width: 594px;
+}
+
+.hot-deal .hot-text h1{
+    font-size: 40px;
+    font-weight: 800px;
+    color: #272727;
+    font-family: Lato;
+
+}
+.hot-deal .hot-text h1 span{
+    color: #E55473;
+}
+.hot-deal .hot-text p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 24px 0;
+}
+/* hot seal part end */
+
+
+
+/* Social-meadia section stard */
+.social-meadia .socail-text{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.social-meadia .socail-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+.social-meadia .socail-text p{
+    width: 594px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.social-meadia .socail-text ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 50px;
+    padding: 20px;
+}
+.social-meadia .socail-text ul li{
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    background: #E55473;
+    border-radius: 50%;
+}
+.social-meadia .socail-text ul li a{
+    color: #fff;
+    align-items: center;
+}
+/* Social-meadia section end  */
+
+/* Images Gallary section stard */
+.image-gleary .image-part .back-img img{
+    width: 342px;
+    margin: 0 10px 0 0;
+    border-radius: 20px;
+}
+/* Images Gallary section end  */
+/* latest deals section stard  */
+.latest-deals .background-img{
+    background: url(../imges/Rectangle\ 9.png);
+    width: 100%;
+    padding:122px 0 121px 0;
+    text-align: center;
+
+}
+.latest-deals .background-img h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+
+}
+.latest-deals .background-img p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 0 24px 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+.latest-deals .background-img label input{
+    border: none;
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(39, 39, 39, 0.60);
+    width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+}
+/* latest deals section end  */
+/* footer section stard  */
+.flower{
+    background: #272727;
+}
+.footer .footer-text{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding: 128px 0 128px 0;
+}
+.footer .footer-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.footer .footer-text h1 span{
+    color: #E55473;
+}
+.footer .footer-text p{
+    width: 594px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90); 
+}
+.footer .footer-text .copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0 0 0;
+
+}
+/* footer section stard */
