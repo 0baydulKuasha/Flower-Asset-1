@@ -89,16 +89,6 @@ body{
 .Featured .container .flower-part{
     display: flex;
 }
-.Featured .container .flower-tree{
-    width: 464px;
-    border-radius: 300px 300px 0px 0px;
-    margin: 0 24px 0 0;
-}
-.Featured .container .flower-tree img{
-    width: 314px;
-    height: 471px;
-    padding: 110px  78px 0 78px;
-}
 .Featured .container .pink{
     background: rgba(167, 33, 98, 0.15);
 }
@@ -110,10 +100,17 @@ body{
     background: rgba(71, 125, 17, 0.15);
 
 }
-/* section flower part end  */
-
-/* support part stard */
-.container h3{
+.Featured .container .flower-tree{
+    width: 464px;
+    border-radius: 300px 300px 0px 0px;
+    margin: 0 24px 0 0;
+}
+.Featured .container .flower-tree img{
+    width: 314px;
+    height: 471px;
+    padding: 110px  78px 0 78px;
+}
+.Featured .container h3{
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -122,25 +119,31 @@ body{
     padding: 20px;
     color: black;
 }
-.container .delivery{
-  width: 100%;
+
+/* section flower part end  */
+
+/* support part stard */
+
+.support-section .container .delivery{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background: rgba(39, 39, 39, 0.05);
 }
 
-
-.container .delivery .support{
+.support-section .container .delivery .support{
     text-align: center;
-    ;
 }
-.container .delivery .support img{
+.support-section .container .delivery .support{
+    padding: 50px ;
+}
+.support-section .container .delivery .support img{
     width: 88px;
     height: 88px;
     padding: 80px 40px 0 80px
     
 }
-.container .delivery .support p{
+.support-section .container .delivery .support p{
     text-align: center;
     padding: 0 5px 87px 75px;
 }
